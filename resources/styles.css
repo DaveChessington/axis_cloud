@@ -161,6 +161,18 @@ nav{
   margin-bottom: 2rem;
 }
 
+/* --- RESPONSIVE ajustes --- */
+@media (max-width: 768px) {
+    .benefits-list {
+        font-size: 0.95rem;
+        margin-bottom: 1rem;
+        text-align: left;
+    }
+    #beneficios img {
+        max-width: 100%;
+        margin: 1.5rem auto;
+    }}
+
 #cta .card {
   height: 100%;
   display: flex;
