@@ -23,132 +23,418 @@
 </head>
 
 <body>
-    <section id="servicios-destacados">
-        <div class="container">
-            <h1>Contrata Nuestros Servicios</h1>
-            <h2>Más Populares</h2>
-            <div class="row g-4">
+    <main>
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="resources\images\axis_cloud.png" class="img-fluid me-2" style="max-height: 60px;"
+                            alt="Logo de Axis Cloud" class="logo">
+                    </a>
 
-                <div class="col-md-4">
-                    <div class="card border-0 shadow-sm overflow-hidden">
-                        <div class="card-body">
-                            <img class="card-img-top"
-                                src="https://www.ibm.com/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/98/c4/22_27_p_gorodenkoff-549.jpg/_jcr_content/renditions/cq5dam.thumbnail.1280.1280.png"
-                                alt="Card image cap">
-                            <h5 class="card-title">
-                                Axis Storage
-                                <span class="badge text-bg-success" style="transition: transform 0.3s ease;"
-                                    onmouseover="this.style.transform='scale(1.05)';"
-                                    onmouseout="this.style.transform='scale(1)';">Destacado <i
-                                        class="bi bi-star"></i></span>
-                            </h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Almacenamiento en la nube escalable</h6>
-                            <p class="card-text">
-                                Guarda, protege y accede a tus datos desde cualquier lugar con almacenamiento
-                                seguro.
-                            </p>
-                            <a href="servicios.html" class="card-link">Más información</a>
-                        </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav ms-auto">
+
+                            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                            <li class="nav-item"><a href="#servicios-destacados" class="nav-link">Populares</a></li>
+                            <li class="nav-item"><a href="#otros" class="nav-link">Otros</a></li>
+                            <li class="nav-item"><a href="#pagos-seguros" class="nav-link">Metodos de Pago</a></li>
+                            <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
+                        </ul>
                     </div>
+
                 </div>
 
-                <div class="col-md-4">
-                    <div class="card border-0 shadow-sm overflow-hidden">
-                        <div class="card-body">
-                            <img class="card-img-top"
-                                src="https://starkcloudglobal.com/hubfs/Proveedor%20de%20Servicio%20de%20Nube.webp"
-                                alt="Card image cap">
-                            <h5 class="card-title">
-                                Axis Compute
-                                <span class="badge text-bg-success" style="transition: transform 0.3s ease;"
-                                    onmouseover="this.style.transform='scale(1.05)';"
-                                    onmouseout="this.style.transform='scale(1)';">Destacado <i
-                                        class="bi bi-star"></i></span>
-                            </h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Instancias virtuales bajo demanda</h6>
-                            <p class="card-text">
-                                Despliega servidores virtuales con potentes CPUs, GPUs o entornos personalizados.
-                            </p>
-                            <a href="servicios.html" class="card-link">Ver planes</a>
+            </nav>
+        </header>
+
+        <section id="hero">
+            <div class="container text-center">
+                <div class="jumbotron">
+                    <h1 class="display-4">Nuestros Servicios en la Nube</h1>
+                    <p class="lead">Descubre cómo AXIS Cloud puede impulsar tu negocio con soluciones en la nube
+                        flexibles y escalables.</p>
+                    <hr class="my-4">
+                    <p></p>
+                    <p class="lead">
+                        <a class="btn btn-primary btn-lg" href="#" role="button">Más información</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicios-destacados">
+            <div class="container">
+                <h1>Contrata Nuestros Servicios</h1>
+                <h2>Más Populares</h2>
+                <div class="row g-4">
+
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow-sm overflow-hidden">
+                            <div class="card-body">
+                                <img class="card-img-top"
+                                    src="https://www.ibm.com/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/98/c4/22_27_p_gorodenkoff-549.jpg/_jcr_content/renditions/cq5dam.thumbnail.1280.1280.png"
+                                    alt="Card image cap">
+                                <h5 class="card-title">
+                                    Axis Storage
+                                    <span class="badge text-bg-success" style="transition: transform 0.3s ease;"
+                                        onmouseover="this.style.transform='scale(1.05)';"
+                                        onmouseout="this.style.transform='scale(1)';">Destacado <i
+                                            class="bi bi-star"></i></span>
+                                </h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Almacenamiento en la nube escalable</h6>
+                                <p class="card-text">
+                                    Guarda, protege y accede a tus datos desde cualquier lugar con almacenamiento
+                                    seguro.
+                                </p>
+                                <a href="servicios.html" class="card-link">Más información</a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-md-4">
-                    <div class="card border-0 shadow-sm overflow-hidden">
-                        <div class="card-body">
-                            <img class="card-img-top"
-                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuhlAxGjsr9lMg4DxyNNxqUmxwX1EKUuL7DQ&s"
-                                alt="Card image cap">
-                            <h5 class="card-title">
-                                Axis Shield
-                                <span class="badge text-bg-success" style="transition: transform 0.3s ease;"
-                                    onmouseover="this.style.transform='scale(1.05)';"
-                                    onmouseout="this.style.transform='scale(1)';">Destacado <i
-                                        class="bi bi-star"></i></span>
-                            </h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Protección avanzada en la nube</h6>
-                            <p class="card-text">
-                                Protege tu infraestructura con monitoreo en tiempo real, firewalls administrados.
-                            </p>
-                            <a href="servicios.html" class="card-link">Ver detalles</a>
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow-sm overflow-hidden">
+                            <div class="card-body">
+                                <img class="card-img-top"
+                                    src="https://starkcloudglobal.com/hubfs/Proveedor%20de%20Servicio%20de%20Nube.webp"
+                                    alt="Card image cap">
+                                <h5 class="card-title">
+                                    Axis Compute
+                                    <span class="badge text-bg-success" style="transition: transform 0.3s ease;"
+                                        onmouseover="this.style.transform='scale(1.05)';"
+                                        onmouseout="this.style.transform='scale(1)';">Destacado <i
+                                            class="bi bi-star"></i></span>
+                                </h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Instancias virtuales bajo demanda</h6>
+                                <p class="card-text">
+                                    Despliega servidores virtuales con potentes CPUs, GPUs o entornos personalizados.
+                                </p>
+                                <a href="servicios.html" class="card-link">Más información</a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-md-4">
-                    <div class="card border-0 shadow-sm overflow-hidden">
-                        <div class="card-body">
-                            <img class="card-img-top"
-                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOwfsWxFxMP7otATbt0XJCyRvx8J3LqmcwMA&s"
-                                alt="Card image cap" >
-                            <h5 class="card-title">Axis AI</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Modelos de inteligencia artificial y análisis
-                            </h6>
-                            <p class="card-text">
-                                Integra inteligencia artificial en tus procesos con servicios de visión, lenguaje y
-                                predicción.
-                            </p>
-                            <a href="servicios.html" class="card-link">Explorar IA</a>
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow-sm overflow-hidden">
+                            <div class="card-body">
+                                <img class="card-img-top"
+                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuhlAxGjsr9lMg4DxyNNxqUmxwX1EKUuL7DQ&s"
+                                    alt="Card image cap">
+                                <h5 class="card-title">
+                                    Axis Shield
+                                    <span class="badge text-bg-success" style="transition: transform 0.3s ease;"
+                                        onmouseover="this.style.transform='scale(1.05)';"
+                                        onmouseout="this.style.transform='scale(1)';">Destacado <i
+                                            class="bi bi-star"></i></span>
+                                </h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Protección avanzada en la nube</h6>
+                                <p class="card-text">
+                                    Protege tu infraestructura con monitoreo en tiempo real, firewalls administrados.
+                                </p>
+                                <a href="servicios.html" class="card-link">Más información</a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-md-4">
-                    <div class="card border-0 shadow-sm overflow-hidden">
-                        <div class="card-body">
-                            <img class="card-img-top"
-                                src="https://img.datacentermarket.es/wp-content/uploads/2025/01/16110626/Bases-de-datos-como-Servicio-1.jpeg"
-                                alt="Card image cap">
-                            <h5 class="card-title">Axis DataHub</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Gestión de bases de datos SQL y NoSQL</h6>
-                            <p class="card-text">
-                                Administra tus bases de datos relacionales y no relacionales sin preocuparte por el
-                                mantenimiento.
-                            </p>
-                            <a href="servicios.html" class="card-link">Ver motores disponibles</a>
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow-sm overflow-hidden">
+                            <div class="card-body">
+                                <img class="card-img-top"
+                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOwfsWxFxMP7otATbt0XJCyRvx8J3LqmcwMA&s"
+                                    alt="Card image cap">
+                                <h5 class="card-title">Axis AI</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Modelos de inteligencia artificial y análisis
+                                </h6>
+                                <p class="card-text">
+                                    Integra inteligencia artificial en tus procesos con servicios de visión, lenguaje y
+                                    predicción.
+                                </p>
+                                <a href="servicios.html" class="card-link">Más información</a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-md-4">
-                    <div class="card border-0 shadow-sm overflow-hidden">
-                        <div class="card-body">
-                            <img class="card-img-top"
-                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbjAasJS3uicXhIQacdJC1JJh_-qChXyXWtA&s"
-                                alt="Card image cap">
-                            <h5 class="card-title">Axis Lambda</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Ejecución de código sin servidores</h6>
-                            <p class="card-text">
-                                Ejecuta tu código en respuesta a eventos sin preocuparte por la infraestructura.
-                            </p>
-                            <a href="servicios.html" class="card-link">Más sobre serverless</a>
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow-sm overflow-hidden">
+                            <div class="card-body">
+                                <img class="card-img-top"
+                                    src="https://img.datacentermarket.es/wp-content/uploads/2025/01/16110626/Bases-de-datos-como-Servicio-1.jpeg"
+                                    alt="Card image cap">
+                                <h5 class="card-title">Axis DataHub</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Gestión de bases de datos SQL y NoSQL</h6>
+                                <p class="card-text">
+                                    Administra tus bases de datos relacionales y no relacionales sin preocuparte por el
+                                    mantenimiento.
+                                </p>
+                                <a href="servicios.html" class="card-link">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow-sm overflow-hidden">
+                            <div class="card-body">
+                                <img class="card-img-top"
+                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbjAasJS3uicXhIQacdJC1JJh_-qChXyXWtA&s"
+                                    alt="Card image cap">
+                                <h5 class="card-title">Axis Lambda</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Ejecución de código sin servidores</h6>
+                                <p class="card-text">
+                                    Ejecuta tu código en respuesta a eventos sin preocuparte por la infraestructura.
+                                </p>
+                                <a href="servicios.html" class="card-link">Más información</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+        <section id="otros">
+            <div class="container">
+                <h1>Otros Servicios</h1>
+
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+
+                        <h2 class="accordion-header" id="heading1">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                Cómputo
+                            </button>
+                        </h2>
+
+                        <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="..." alt="Card image cap">
+                                    <div class="card-body">
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of
+                                            the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="accordion-item">
+
+                        <h2 class="accordion-header" id="heading2">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                                Almacenamiento
+                            </button>
+                        </h2>
+
+                        <div id="collapse2" class="accordion-collapse collapse show" aria-labelledby="heading2"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="..." alt="Card image cap">
+                                    <div class="card-body">
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of
+                                            the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="accordion-item">
+
+                        <h2 class="accordion-header" id="heading3">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                                Base de Datos
+                            </button>
+                        </h2>
+
+                        <div id="collapse3" class="accordion-collapse collapse show" aria-labelledby="heading3"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="..." alt="Card image cap">
+                                    <div class="card-body">
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of
+                                            the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+
+                        <h2 class="accordion-header" id="heading4">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                                AI & Machine Learning
+                            </button>
+                        </h2>
+
+                        <div id="collapse4" class="accordion-collapse collapse show" aria-labelledby="heading4"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="..." alt="Card image cap">
+                                    <div class="card-body">
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of
+                                            the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+
+                        <h2 class="accordion-header" id="heading5">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                                Networking & CDN
+                            </button>
+                        </h2>
+
+                        <div id="collapse5" class="accordion-collapse collapse show" aria-labelledby="heading5"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="..." alt="Card image cap">
+                                    <div class="card-body">
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of
+                                            the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="accordion-item">
+
+                        <h2 class="accordion-header" id="heading6">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
+                                Seguridad e Identidad
+                            </button>
+                        </h2>
+
+                        <div id="collapse6" class="accordion-collapse collapse show" aria-labelledby="heading6"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="..." alt="Card image cap">
+                                    <div class="card-body">
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of
+                                            the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="accordion-item">
+
+                        <h2 class="accordion-header" id="heading7">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse7" aria-expanded="true" aria-controls="collapse7">
+                                Administración y Monitoreo
+                            </button>
+                        </h2>
+
+                        <div id="collapse7" class="accordion-collapse collapse show" aria-labelledby="heading7"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="..." alt="Card image cap">
+                                    <div class="card-body">
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of
+                                            the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="accordion-item">
+
+                        <h2 class="accordion-header" id="heading8">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse8" aria-expanded="true" aria-controls="collapse8">
+                                Herramientas para Desarrolladores
+                            </button>
+                        </h2>
+
+                        <div id="collapse8" class="accordion-collapse collapse show" aria-labelledby="heading8"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="..." alt="Card image cap">
+                                    <div class="card-body">
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of
+                                            the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+        <section id="pagos-seguros" class="my-5">
+            <div class="container text-center">
+                <h2>Métodos de Pago Seguros</h2>
+                <p class="lead">Ofrecemos múltiples opciones de pago para tu conveniencia y seguridad.</p>
+                <div class="d-flex justify-content-center gap-4">
+                    <i class="bi bi-credit-card fs-1"></i>
+                    <i class="bi bi-paypal fs-1"></i>
+                    <i class="bi bi-apple fs-1"></i>
+                    <i class="bi bi-google fs-1"></i>
+                </div>
+            </div>
+
+        </section>
+
+        <footer class="py-4 bg-body-tertiary">
+            <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+                <small class="text-muted"> © 2025 AXIS CLOUD | Derechos Reservados
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-linkedin"></i>
+                </small>
+            </div>
+        </footer>
+    </main>
 </body>
 
 </html>
