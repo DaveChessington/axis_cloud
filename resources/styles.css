@@ -3,7 +3,13 @@ body {
     scroll-behavior: smooth;
 }
 
-
+p{
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #343a40;
+    margin-bottom: 15px;
+    font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+}
 
 h1 {
     color: #0d6efd;
@@ -573,4 +579,167 @@ footer .bi:hover {
     margin-left: 0.5rem;
     font-size: 1.05rem;
     vertical-align: middle;
+}
+
+#otros .card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease;
+    font-size: 1.05rem;
+    /* Slightly larger base font */
+}
+
+#otros .card:hover {
+    transform: translateY(-3px);
+}
+
+#otros .card-img-top {
+    width: 100%;
+    height: 250px; /* Ajusta esta altura según lo que prefieras */
+    object-fit: cover; /* Recorta y centra la imagen para mantener proporción */
+    object-position: center; /* Centra el recorte */
+    border-bottom: 1px solid #ddd; /* Opcional: línea divisoria */
+}
+#otros .card-body {
+    padding: 1.25rem;
+}
+
+.accordion-button {
+    font-size: 1.6rem; /* Aumenta o disminuye el tamaño del texto */
+    font-weight: 600;  /* Opcional: más negrita */
+    padding: 1rem 1.25rem; /* Ajusta el espacio interno si quieres más altura */
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #f8f9fa; /* Opcional: color al abrir */
+    color: #0d6efd; /* Color del texto al estar activo */
+}
+
+
+
+
+blockquote {
+    background-color: #f9f9f9; /* Light grey background */
+    border-left: 5px solid #ccc; /* Grey left border */
+    margin: 1.5em 0; /* Vertical margin, no horizontal margin */
+    padding: 0.5em 1em; /* Padding inside the blockquote */
+    font-style: italic; /* Italicize the text */
+    color: #333; /* Darker text color */
+}
+
+
+.photo-container {
+    /* Ensures the caption stays within the image's context */
+    position: relative; 
+    /* Remove default margins often applied to figure elements */
+    margin: 0; 
+    /* Optional: set a width for the container */
+    width: 100%; 
+    /* Optional: set max-width for responsiveness */
+    max-width: 600px; 
+}
+
+.photo-container img {
+    /* Ensures the image fills its container responsively */
+    width: 100%; 
+    height: auto;
+    display: block;
+}
+
+.photo-footer {
+    /* Positions the text over the bottom of the image */
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* Styling for the text */
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9em;
+    /* Optional: add some padding to prevent text from touching edges */
+    box-sizing: border-box; 
+}
+
+.photo-container-no-overlap {
+    /* Remueve los márgenes por defecto del elemento figure */
+    margin: 0; 
+    /* Opcional: Define un ancho máximo para el contenedor de la imagen */
+    max-width: 600px; 
+    /* Centra el contenedor si es necesario */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo-container-no-overlap img {
+    /* Asegura que la imagen sea responsive y llene su contenedor */
+    width: 100%; 
+    height: auto;
+    /* Display block ayuda a evitar espacios blancos extraños debajo de la imagen */
+    display: block; 
+}
+
+.photo-footer-no-overlap {
+    /* Estilo para el texto que ahora está debajo */
+    background-color: #f0f0f0; /* Un color de fondo claro para la descripción */
+    color: #333; /* Color de texto oscuro */
+    padding: 10px;
+    text-align: center; /* Centra el texto */
+    font-size: 0.9em;
+    border-top: 1px solid #ccc; /* Línea superior opcional para separarlo visualmente */
+}
+
+#about-us li {
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+}
+
+#about-us i {
+    color: #198754;
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+#por-que-nosotros li {
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+}
+
+#por-que-nosotros i {
+    color: #3f47e6;
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+/* --- Sección Misión / Visión / Valores --- */
+#about-us .card img {
+    width: 100%;
+    height: 250px; /* altura fija y coherente */
+    object-fit: cover; /* recorta sin deformar */
+    border-radius: 0.5rem 0 0 0.5rem; /* redondeo sólo en el lado izquierdo */
+}
+
+/* mejora para pantallas pequeñas */
+@media (max-width: 768px) {
+    #about-us .card img {
+        height: 200px;
+        border-radius: 0.5rem 0.5rem 0 0; /* en móviles, imagen arriba */
+    }
+}
+
+
+.image-size {
+    width: 100%;
+    max-width: 800px;
+    margin: 2rem auto;
+    display: block;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
