@@ -821,3 +821,19 @@ blockquote {
     color: #0d6efd;
 }
 
+/* --- Animación de aparición general --- */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Aplica a todos los elementos EXCEPTO los del hero y su fondo */
+body *:not(#hero):not(#hero *):not(#fondo) {
+  animation: fadeInUp 0.6s ease forwards;
+}
